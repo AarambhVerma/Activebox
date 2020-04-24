@@ -25,8 +25,18 @@ body{
   width: 50%;
   margin: auto;
   font-size: 50px;
-
+/*  display: block;*/
   font-weight: lighter;
+/*  text-align: center;*/
+}
+
+@media only screen and (max-width: 800px) {
+  .top-section h1{
+    width: 50%;
+
+    font-size: 40px;
+    font-weight: lighter;
+  }
 }
 
 .top-section p {
